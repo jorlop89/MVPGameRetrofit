@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MVPGameRetrofit</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_id">Id</string>
+    <string name="send_text">Enviar</string>
+    <string name="imagen_juego">Imagen Juego</string>
+    <string name="nombre_juego_id">Nombre Juego (Id)</string>
+
+
+</resources>
