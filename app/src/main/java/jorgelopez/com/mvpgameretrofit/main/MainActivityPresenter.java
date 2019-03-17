@@ -37,7 +37,8 @@ public class MainActivityPresenter implements MainActivityMVP.Presenter {
             else{
                 String viewName = view.getName();
                 String viewId = view.getId();
-                Call<Twitch> call = view.getTwitchApi().getGame("xzx5hs4xgbx7wb9m0jh9zdqfu6ip5s", viewName, viewId);
+                //Add the key of TwitchAPI.
+                Call<Twitch> call = view.getTwitchApi().getGame("", viewName, viewId);
                 call.enqueue(new Callback<Twitch>() {
                     @Override
                     public void onResponse(Call<Twitch> call, Response<Twitch> response) {
